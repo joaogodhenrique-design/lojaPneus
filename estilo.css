@@ -1,0 +1,253 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(to right,rgb(0,100,200), rgb(0,200,100));
+text-align: center;
+color: white;
+}
+
+.login{
+border-radius: 25px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 30px;
+background-color: rgba(0, 0, 0, 0.7);
+}
+
+.campoEmail{
+padding: 10px;
+margin: 7px 0;
+}
+
+input[type="password"]{
+padding: 10px; 
+margin: 7px 0;
+}
+
+.botaoLogar{
+padding: 10px 40px;
+margin: 5px 0;
+border-radius: 5px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+letter-spacing: 2px;
+}
+
+.botaoLogar:hover{
+background-color: #999 ;
+}
+
+.paginaPrincipal{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+background: linear-gradient(to right, rgb(150,150,150), rgb(255,255,255));
+color: rgb(50, 50, 50) ;
+}
+
+.produtos{
+position: absolute;
+top: 45%;
+left: 50%;
+margin-top: 45px;
+transform: translate(-50%, -50%);
+padding: 20px;
+box-sizing: border-box;
+border: 3px solid rgb(110, 110, 110);
+border-radius: 15px;
+letter-spacing: 2px;
+transition: 0.2s ease;
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+}
+
+.produtos:hover{
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.menuTopo{
+background: #999;
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+color: white;
+text-align: left;
+padding: 10px;
+margin: 0;
+width: 100%;
+box-sizing: border-box;
+position: fixed;
+z-index: 1000;
+top: 0;
+left: 0;
+display: flex;
+align-items: center;
+gap: 30px;
+transition: .2s ease;
+}
+
+.menuTopo a{
+color: white;
+font-weight: bold;
+transition: .2s ease;
+}
+
+.menuTopo a:hover{
+color: #666;
+}
+
+.listaPersonalizada{
+list-style-type: disc;
+align-items: center;
+gap: 40px;
+display: flex;
+font-size: 1.1em;
+letter-spacing: 1px;
+}
+
+a{
+color: rgb(55, 55, 55);
+text-decoration: none;
+}
+
+a:hover{
+color: #888;
+}
+
+.tr, th{
+  padding: 5px;
+  margin-top: 20px;
+  border: 2px solid rgb(110, 110, 110);
+  border-radius: 3px;
+}
+
+.cadastroProdutos{
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: 12%;
+transform: translate(-50%, -50%);
+padding: 20px;
+box-sizing: border-box;
+border: 3px solid rgb(110, 110, 110);
+border-radius: 15px;
+letter-spacing: 1px;
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+transition: transform .2s ease, box-shadow .2s ease;
+display: grid;
+}
+
+.cadastroProdutos label{
+  text-align: left;
+  font-size: 16px;
+}
+
+.cadastroProdutos input, .cadastroProdutos select{
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.cadastroProdutos select{
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.cadastroProdutos button{
+  padding: 10px auto 0 auto;
+  margin: 8px 16px;
+  border-radius: 5px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1px;
+  transition: .2s ease;
+}
+
+.cadastroProdutos:hover{
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.tr, td{
+padding: 10px;
+box-sizing: border-box;
+border: 2px solid rgb(110, 110, 110);
+border-radius: 5px;
+letter-spacing: 2px;
+}
+
+.tabelaCatalogo{
+position: absolute;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 20px;
+box-sizing: border-box;
+width: 380px;
+padding: 25px;
+margin: 25px auto;
+border-radius: 18px;
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.8);
+transition: transform .2s ease, box-shadow .2s ease;
+border: 3px solid rgb(110, 110, 110);
+border-radius: 15px;
+letter-spacing: 2px;
+}
+
+.tabelaCatalogo:hover{
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.tabelaCatalogo h2{
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 1px;
+  background: #666;
+  padding: 4px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.tabelaCatalogo p{
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 6px 0;
+}
+
+.btnCatalogo{
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 20px;
+  background-color: #666;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color .3s ease;
+}
+
+.tabelaCatalogo a:hover{
+  background-color: #333;
+}
+
+.produtos a{
+transition: .2s ease;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: inline-block;
+margin-top: 12px;
+padding: 10px 20px;
+background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.produtos a:hover{
+background-color: #333;
+}
+
+.botaoCadastrar:hover{
+background-color: #888 ;
+}
+
+.cadastroProdutos input[type="number"], .cadastroProdutos textarea{
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+}
