@@ -26,7 +26,7 @@ $stmt->execute([
     $descricao,
 ]);
 
-header('Location: PagPrincipal.php');
+header('Location: index.php');
 exit();
 }
 
